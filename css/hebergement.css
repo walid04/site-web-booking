@@ -1,0 +1,348 @@
+
+
+        #button1 {
+            margin-left                 : 43.5%; 
+            width                       : 171px; 
+            height                      : 50px; 
+            background-color            : #669922; 
+            color                       : white; 
+            font-size                   : 18px; 
+            border                      : none; 
+            border-radius               : 4px;
+            -webkit-transition          : background-color .3s;
+            -moz-transition             : background-color .3s;
+            transition                  : background-color .3s;
+            -webkit-transition          : color .3s;
+            -moz-transition             : color .3s;
+            transition                  : color .3s;
+        }
+
+        #button1:hover {
+            background-color            : #669955; 
+            color                       : #606060;
+        }
+
+        .car-container {
+
+            border : 1px solid red;
+
+        }
+
+
+
+        .car-text {
+
+            border      : 1px solid green;
+
+            padding-top : 50px;
+
+        }
+
+
+
+        .car-image {
+
+            border     : 1px solid blue;
+
+            text-align : center;
+
+        }
+
+    
+
+    
+
+        .riads {
+
+            background-color : #e3e3e3;
+
+            padding          : 10px;
+
+            /*border           : 1px solid green;*/
+
+        }
+
+
+
+        .riad {
+
+            /*border              : 1px solid blue;*/
+
+            overflow            : inherit;
+
+            padding             : 10px;
+
+            margin-bottom       : 10px;
+
+            background-color    : #FFF;
+
+            overflow            : hidden;
+
+            border-radius       : 8px;
+
+            transition-duration : .6s;
+
+            transition-property : background-color, border-radius, opacity;
+
+        }
+
+
+
+        .title-top {
+
+            color      : #999;
+
+            font-size  : 10px;
+
+            text-align : left;
+
+        }
+
+
+
+        .title-top:after {
+
+            content : "";
+
+        }
+
+
+
+        .riad .title {
+
+            display        : table-cell;
+
+            height         : 35px;
+
+            vertical-align : middle;
+
+            font-family    : 'Arvo', Arial;
+
+            text-transform : uppercase;
+
+            font-weight    : normal;
+
+            margin-bottom  : .75em;
+
+            font-size      : 20px;
+
+            line-height    : 1em;
+
+            /*padding        : 0 0 0 50px;*/
+
+        }
+
+
+
+        .riad .image img {
+
+            cursor : pointer;
+
+        }
+
+
+
+        .riad .description {
+
+            margin-left : 10px;
+
+            color       : #121112;
+
+        }
+
+
+
+        .price {
+
+            position         : absolute;
+
+            top              : 6px;
+
+            right            : 30px;
+
+            width            : 117px;
+
+            height           : 43px;
+
+            padding          : 6px 0 0 10px;
+
+            line-height      : 12px;
+
+            color            : #fff;
+
+            background-color : #C0501B;
+
+            border-color     : #C0501B;
+
+            border-radius    : 4px 4px 4px 4px;
+
+        }
+
+
+
+        .price > span:first-child {
+
+            display     : block;
+
+            text-align  : center;
+
+            font-family : "Open Sans";
+
+        }
+
+
+
+        .text2 {
+
+            font-size : 12px;
+            color     : white;
+
+        }
+
+
+
+        #results .company .price > strong {
+
+            display    : block;
+
+            text-align : center;
+
+            margin     : 7px 0 0 0;
+
+        }
+
+
+
+        .text0 {
+
+            font-size : 14px;
+            color     : white;
+
+        }
+
+
+
+        .more {
+
+            position         : relative;
+
+            background-color : #EDB83A;
+
+            border-color     : #EDB83A;
+
+            color            : #FFF;
+
+            height           : 1.9em;
+
+            padding          : 0px 12px 0px 0px;
+
+            border-radius    : 4px 4px 4px 4px;
+
+            width            : 100%;
+
+        }
+
+
+
+        .icons {
+
+            margin : 50px 0 0 0;
+
+            width  : 175px;
+
+            color  : #121112;
+
+        }
+
+
+
+        .icons span {
+
+            margin-bottom : 10px;
+
+            position      : relative;
+
+            display       : block;
+
+            padding       : 0 0 0 24px;
+
+            font-weight   : bold;
+
+            color         : #3c3c3c;
+
+        }
+
+
+
+        .icons span:before {
+
+            position    : absolute;
+
+            line-height : normal;
+
+            left        : 0;
+
+            top         : 1px;
+
+            cursor      : default;
+
+        }
+
+        #profil {
+            margin-top: -210px;
+            text-align: left;
+            margin-left: 10px;
+        }
+
+        .text-muted {
+            margin-bottom: 30px;
+        } 
+
+        .text-center {
+            margin-bottom: 30px;
+        } 
+
+        .col-sm-4 img{
+            width: 100% !important;
+        }
+
+        .col-sm-8 {
+            margin-top: 10px;
+        }
+
+        textarea {
+            width:100%; 
+            height:20%;
+        }
+
+        #prix {
+             margin-left : 180px;
+        }
+
+        #prixinput {
+            width:30%; 
+            color:grey; 
+            height: 20px;"
+        }
+
+        #localisation {
+            width:45%;
+        }
+
+        #more {
+            background-color: #B22222;
+        }
+
+        .col-md-4 h3 {
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            margin-top :20px;
+        }
+
+    
+

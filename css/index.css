@@ -1,0 +1,24 @@
+    #profil {
+        margin-top: -210px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .container-fluid {
+        background-color: #EBECED;
+        padding-bottom: 50px;
+    }
+    .container-fluid h3 {
+        font-size:2em;
+    }
+    .row {
+        margin-top: 30px;
+    }
+    .row p {
+        font-size: 1.1em;
+    }
+    .col-md-4 h3 {
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }

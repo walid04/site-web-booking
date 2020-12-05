@@ -1,0 +1,367 @@
+    html {
+        overflow-x : hidden;
+    }
+
+    .col-sm-4 button {
+         background-color: rgba(0,0,0,.4) !important;
+         border:none !important;
+         border-radius:5px;
+         height: 32px !important;
+         width: 100%; 
+         margin-top : 100px; 
+         margin-left : -508px;"
+    }
+    
+    .col-sm-5 button {
+         background-color: rgba(0,0,0,.4) !important;
+         border:none !important;
+         border-radius:5px;
+         height: 32px !important;
+         width: 220%; 
+         margin-top : -60px; 
+         margin-left : 75px;
+    }
+
+
+    #profil {
+        margin-top: -210px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+
+    .col-md-4 h3 {
+        font-family: Verdana;
+        font-weight: bold;
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+
+
+    .slider {
+
+        border            : 1px solid #F0F0F0;
+
+        width              : 100%;
+
+        overflow           : hidden;
+
+        display            : inline-block;
+
+
+        -webkit-transform  : skewX(0deg);
+
+        -moz-transform     : skewX(0deg);
+
+        -ms-transform      : skewX(0deg);
+
+        -o-transform       : skewX(0deg);
+
+        transform          : skewX(0deg);
+
+        -webkit-transition : width 1.2s ease-in-out;
+
+        -moz-transition    : width 1.2s ease-in-out;
+
+        -ms-transition     : width 1.2s ease-in-out;
+
+        -o-transition      : width 1.2s ease-in-out;
+
+        transition         : width 1.2s ease-in-out;
+
+        pointer-events     : none;
+
+    }
+
+    .box {
+
+        width  : 100%;
+
+        height : 330px;
+
+    }
+    .box a {
+
+        display : block;
+
+        width   : 100%;
+
+        height  : 100%;
+
+    }
+
+
+
+    .sunset {
+
+        margin-left       : 38%;
+
+        /* skew back by negative of parent’s skew so contents is upright */
+
+        -webkit-transform : skewX(0deg);
+
+        -moz-transform    : skewX(0deg);
+
+        -ms-transform     : skewX(0deg);
+
+        -o-transform      : skewX(0deg);
+
+        transform         : skewX(0deg);
+
+        background        : url(../images/transport/aeroport.jpg) no-repeat;
+
+        margin-top        : 335px;
+
+        background-size   : 62% 100%;
+
+        pointer-events    : auto;
+
+    }
+
+
+
+    .sunrise {
+
+        background      : url(../images/transport/location.jpg) no-repeat;
+
+        background-size : 62% 100%;
+
+        position        : absolute; /* remove from flow so sunset is placed on top */
+
+        /*box-shadow      : 0 0 10px rgba(0, 0, 0, .7);*/
+        pointer-events  : auto;
+
+    }
+
+
+
+    .inside1 {
+
+        /*border   : 2px solid #04C;*/
+
+        width    : 80%;
+
+        /*height   : 100px;*/
+
+        position : absolute;
+
+        top      : 20%;
+
+        left     : 37%;
+
+        right    : 0;
+
+        z-index  : 5 !important;
+
+    }
+
+
+
+    .inside2 {
+
+        /*border   : 2px solid #FCC;*/
+
+        width    : 50%;
+
+        /*height   : 100px;*/
+
+        position : absolute;
+
+        top      : 20%;
+
+        right    : 83%;
+
+        z-index  : 5 !important;
+
+    }
+
+
+
+    .inside1 h3 {
+
+        color       : #EDB83A;
+
+        font-size   : 4em;
+
+        text-align  : center;
+
+        font-weight : bold;
+
+        font-family : century_gothic_regular;
+
+        /*text-shadow : 1.5px 0 #000000, 0 1.5px #000000, 1.5px 0 #000000, 0 1.5px #000000;*/
+
+        /*text-shadow : -1px 0 #EDB83A, 0 1px #EDB83A, 1px 0 #EDB83A, 0 -1px #EDB83A;*/
+
+    }
+
+    .inside2 h3 {
+
+        margin-left : -200px;
+
+        color       : #EDB83A;
+
+        font-size   : 4em;
+
+        text-align  : center;
+
+        font-weight : bold;
+
+        font-family : century_gothic_regular;
+
+        /*text-shadow : 1.5px 0 #000000, 0 1.5px #000000, 1.5px 0 #000000, 0 1.5px #000000;*/
+
+        /*text-shadow : -1px 0 #EDB83A, 0 1px #EDB83A, 1px 0 #EDB83A, 0 -1px #EDB83A;*/
+
+    }
+
+
+
+    .inside1 form {
+
+        display     : none;
+
+        text-align  : center;
+
+        /*border      : 1px solid red;*/
+
+        margin-left : 400px;
+
+    }
+
+    .inside2 form {
+
+        display     : none;
+
+        text-align  : center;
+
+        /*border      : 1px solid red;*/
+
+        margin-left : 55px;
+
+    }
+
+    /*responsive*/
+    @media (max-width: 1010px){
+        .inside1 {
+            top      : 0%;
+        }
+        .inside1 h3{
+            font-size: 16px
+        }
+        .inside2 h3{
+            font-size: 16px
+        }
+    }
+    @media (min-width: 628px){
+    .imagemobile img{
+       display: none;
+    }
+        .inside1 form {
+        width: 100%;
+    }
+    .imagemobile1 img{
+        display: none;
+        position: absolute;
+        top: 280px;
+    }
+}
+@media (max-width: 628px){
+    .inside1 {
+        width: 100%;
+        left:0;
+    }
+    .inside1 form {
+        width: 100%;
+    }
+    .imagemobile img{
+       width: 100%;
+       display: block;
+    }
+    .imagemobile1 img{
+       width: 100%;
+       display: block;
+    }
+
+    .sunrise {
+        background      : none;
+        background-color: rgba(0,0,0,0);;
+    }
+
+    .sunset{
+        background      : none;
+        background-color: rgba(0,0,0,0);;
+    }
+
+
+}
+@media (max-width: 510px){
+    .inside1 h3{
+        font-size: 27px
+    }
+}
+@media (max-width: 1010px){
+
+
+
+    .inside1 {
+        top      : 5%;
+    }
+    .sunset {
+
+       
+    }
+    .sunrise {
+
+    }
+
+
+}
+
+    /*pour width < 628*/
+    @media (max-width: 628px){
+        .inside2 {
+            width: 70%;
+            position: absolute;
+            top: 45%;
+            right: 37%;
+        }
+        .inside1 {
+            width: 70%;
+            left:10%;
+        }
+        .inside1 form {
+            width: 70%;
+        }
+        .inside2 form {
+            width: 70%;
+        }
+        .imagemobile img{
+            width: 100%;
+            height: 25%;
+        }
+        .imagemobile1 img{
+            width: 100%;
+            height: 25%;
+        }
+        .sunrise {
+            background      : none;
+            background-color: rgba(0,0,0,0);;
+        }
+        .sunset{
+            background      : none;
+            background-color: rgba(0,0,0,0);;
+        }
+
+    }
+
+    /*pour width > 628*/
+    @media (min-width: 628px){
+        .imagemobile img{
+            display: none;
+        }
+        .imagemobile1 img{
+            display: none;
+        }
+
+    }

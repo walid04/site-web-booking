@@ -1,0 +1,166 @@
+
+html, body {
+    overflow-x : hidden;
+}
+
+    /* Fichier inscription.php */
+
+    #erreur {
+        text-align : center;
+        color: red;
+        font-size: 2em;
+        margin-bottom: 50px;
+        margin-top : -230px;
+    }
+
+    #erreur1 {
+        text-align : center;
+        color: red;
+        font-size: 2em;
+        margin-bottom: 50px;
+    }
+
+    #valider1 {
+        margin-left : 140px;
+    }
+
+    #message {
+        text-align : center;
+        color: green;
+        font-size: 2em;
+        margin-bottom: 50px;
+    }
+
+    #inscription {
+        margin-left: 250px;
+    }
+
+    #connexion {
+        margin-left: 890px;
+        margin-top: -435px;
+        margin-bottom: 250px;
+    }
+
+    #inscription input[type=submit] {
+        margin-left : 12%;
+    }
+
+    #connexion input[type=submit] {
+        
+        margin-left : 18%;
+    }
+
+    input[type=submit] {
+        border-radius               : 4px;
+        color : black;
+        -webkit-transition: background-color .5s;
+        -moz-transition: background-color .5s;
+        transition: background-color .5s;
+    }
+
+    input[type=submit]:hover {
+        background-color: #EDB83A;
+    }
+
+    #profil {
+        margin-top: -210px;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    #titre1 {
+        margin-left: 20px;
+    }
+
+    #titre2 {
+        margin-left: 75px; font-size: 28px;
+    }
+
+    .inscription span {
+        padding:10px 0 0 130px;
+    }
+
+    #titre3 {
+         margin-left: -80px;
+    }
+
+    #titre4 {
+          margin-left: 20px; 
+          font-size: 28px;
+    }
+
+    .connexion span {
+        padding:10px 0 0 80px;
+    }
+
+
+    /*     Fichier modifier.php    */
+
+
+
+    #modifier {
+        margin-left: 690px;
+        margin-top: -350px;
+        margin-bottom: 250px;
+    }
+
+    #valider {
+        margin-left : 200px;
+        margin-top : 57px;
+    }
+
+    #modifier h2 {
+        margin-left : 20px;
+    }
+
+    #modifier input[type=submit] {
+        margin-left : 18%;
+    }
+
+    input[type=text]  {
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.428571429;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+
+    input[type=email] {
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.428571429;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+
+    input[type=password] {
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.428571429;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
